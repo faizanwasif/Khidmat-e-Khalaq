@@ -1,0 +1,19 @@
+/* sytle for dsiplay greater than 720px */
+
+nav{
+    background-color: #879fbf;
+    overflow: hidden;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}

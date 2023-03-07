@@ -1,4 +1,18 @@
 /* sytle for dsiplay greater than 720px */
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding-left: 30px;
+    /* width: 400px; */
+    /* background-color: #ffffff; */
+}
+
+#logo img{
+    width: 150px;
+    height: 150px;
+}
 
 nav{
     background-color: #879fbf;
@@ -32,16 +46,48 @@ nav a:hover{
 }
 
 #carousel{
-    top: 0;
-    left: 0;
     margin: 0;
-    width: 100%;
-    height: 30vw;
-  
+    width: 40%;
+    height: 20vw;
+    float: right;
+    padding-top: 5%;
 }
 
 #carousel img{
     width: 100%;
     height: 100%;
  
+}
+/* Used z-index to set the position */
+#bread-crums{
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    z-index: 900;
+    float: left;
+}
+#bread-crums ul{
+    display: flex;
+    list-style: none;
+}
+
+#bread-crums a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#bread-crums a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+#info{
+    position: absolute;
+    z-index: 850;
+    padding-top: 120px;
+    width: 50%;
+    height: 50px;
+    padding-left: 10px;
+    margin: 10px;
 }
